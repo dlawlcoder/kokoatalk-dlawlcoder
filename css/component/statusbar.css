@@ -1,0 +1,22 @@
+.status_bar,
+.status_bar div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  opacity: 0.9;
+}
+.status_bar div {
+  width: 33%;
+  margin-top: 5px;
+}
+.status_bar div:nth-child(1) {
+  justify-content: flex-start;
+}
+.status_bar div:nth-child(3) {
+  justify-content: flex-end;
+}
+.status_bar div span,
+.battery_team i {
+  margin-right: 4px;
+}

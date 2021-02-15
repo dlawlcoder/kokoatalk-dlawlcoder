@@ -1,0 +1,15 @@
+.main_title_first div p i {
+  color: red;
+}
+.main_title_end {
+  font-size: 25px;
+  margin-right: 17px;
+}
+.find-icon_more {
+  margin: 25px 0 10px 0;
+  opacity: 0.85;
+}
+.more_img {
+  width: 100%;
+  height: 217px;
+}
