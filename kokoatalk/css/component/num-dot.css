@@ -1,0 +1,61 @@
+.num {
+  z-index: 1;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background-color: tomato;
+  color: white;
+  font-size: 12px;
+  margin-right: 80px;
+  margin-bottom: 17px;
+}
+.num span {
+  margin-bottom: 2px;
+}
+.dot {
+  z-index: 1;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: tomato;
+  margin-left: 320px;
+  margin-bottom: 17px;
+}
+
+.num2 {
+  position: relative;
+  left: 50px;
+  top: 5px;
+  width: 20px;
+  height: 20px;
+  font-size: 13px;
+}
+.more-dot {
+  position: absolute;
+  margin-right: 370px;
+  margin-bottom: 70px;
+  width: 5px;
+  height: 5px;
+}
+.dot-setting {
+  position: absolute;
+  margin-right: 220px;
+  width: 5px;
+  height: 5px;
+}
+.dot-setting-find {
+  position: absolute;
+  margin-right: 258px;
+  width: 5px;
+  height: 5px;
+}
+.setting_new {
+  z-index: 1;
+  background-color: orangered;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin-left: 125px;
+  margin-top: 20px;
+  position: absolute;
+}
